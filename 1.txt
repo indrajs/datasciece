@@ -1,0 +1,9 @@
+import pandas as pd
+exam_data=[{'name':'Anastasia','score':12.5,'attempts':1,'qualify':'yes','labels':'a'},{'name':'Dima','score':9,'attempts':3,'qualify':'no','labels':'b'},{'name':'Katherine','score':16.5,'attempts':2,'qualify':'yes','labels':'c'},{'name':'James','attempts':3,'qualify':'no','labels':'d'},{'name':'Emily','score':9,'attempts':2,'qualify':'no','labels':'e'},
+          {'name':'Michaael','score':20,'attempts':3,'qualify':'yes','labels':'f'},
+          {'name':'Mathew','score':14.5,'attempts':1,'qualify':'yes','labels':'g'},
+          {'name':'Laura','attempts':1,'qualify':'no','labels':'h'},
+          {'name':'Kevin','score':8,'attempts':2,'qualify':'no','labels':'i'},
+          {'name':'Jonas','score':19,'attempts':1,'qualify':'yes','labels':'j'}]
+newdf=pd.DataFrame(exam_data)
+print(newdf)
